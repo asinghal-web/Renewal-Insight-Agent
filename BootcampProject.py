@@ -185,4 +185,3 @@ with main_col:
         })
 
         st.rerun()
-
