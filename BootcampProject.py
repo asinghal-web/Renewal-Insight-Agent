@@ -113,10 +113,10 @@ with main_col:
         )
 
         question_text = st.session_state.current_question
-        url = "https://elastic.snaplogic.com/api/1/rest/slsched/feed/ConnectFasterInc/Akriti%20Singhal/Renewal%20Insight%20Agent/AgentDriver%20-%20Project%20Akriti%20Task"
+        url = "https://elastic.snaplogic.com/api/1/rest/slsched/feed/ConnectFasterInc/Akriti%20Singhal/Renewal%20Insight%20Agent/Copy%20of%20AgentDriver%20-%20Project%20Akriti%20Task"
         payload = [{"Question": question_text}]
         headers = {
-            "Authorization": "Bearer tp5smZiJNKa0u5oqvKiz8Y0rO1x6PFhW",
+            "Authorization": "Bearer KIqLGaG22JpxFmNUfK1H2uJY2iyZeTGM",
             "Content-Type": "application/json"
         }
 
@@ -144,6 +144,7 @@ with main_col:
             st.session_state.current_question = ""
             st.session_state.loading_state = False
             st.rerun()
+
 
 
 
